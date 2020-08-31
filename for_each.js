@@ -16,3 +16,15 @@ myRelatives.forEach(function(myRelatives){
 // I put "element" in the parameter preceeding the function in order to access the elements
 // in the array.
 // my foeEach function should print " I really miss seeing [element]"
+
+const myRelativesProfile = [
+    { Mom: 'Brenda', Occupation: 'Nutritionist', Location:'Driscoll,TX' },
+    {Dad: 'Henry', Occupation: 'Software Engineer', Location: 'Mansfield,TX'},
+    {Brother: 'Gabriel', Occupation: 'Project management', Location: 'San Marcos,TX'},
+    {Grandma: 'Pinkie', Occupation: 'retired', Location: 'Seguin,TX'},
+    {Grandpa: 'Willie', Occupation:'retired', Location: 'Seguin,TX'}
+]
+// console.log(myRelativesProfile)
+
+// I now have an array of objects. Is there any difference in the for each method?
+// Not really. The only difference i've noticed is using further dot notation for specificity.
